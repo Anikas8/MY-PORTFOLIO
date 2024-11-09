@@ -1,10 +1,5 @@
 import React from 'react';
 import {
-  ImFacebook,
-  ImTwitter,
-  ImPinterest,
-  ImInstagram,
-  ImYoutube,
   ImGithub,
   ImLinkedin,
 } from 'react-icons/im';

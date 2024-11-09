@@ -1,9 +1,9 @@
-import React, { useContext } from 'react';
+import React from 'react';
 // Import components
 import Header from './components/Header';
 import AnimRoutes from './components/AnimRoutes';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { motion } from 'framer-motion';
+//import { motion } from 'framer-motion';
 
 const App = () => {
   return (

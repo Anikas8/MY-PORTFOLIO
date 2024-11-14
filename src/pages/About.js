@@ -1,5 +1,5 @@
 import React from 'react';
-import WomanImg from 'src\\img\\about\\21BAI10212.jpg';
+import WomanImg from 'img\\about\\21BAI10212.jpg';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { transition1 } from '../transitions'; // Make sure this import is correct

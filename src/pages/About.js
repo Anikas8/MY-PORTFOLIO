@@ -1,5 +1,5 @@
 import React from 'react';
-import WomanImg from 'E:\\portfolio_AS-master\\portfolio_AS-master\\src\\img\\about\\Untitled.png';
+import WomanImg from 'src\\img\\about\\21BAI10212.jpg';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { transition1 } from '../transitions'; // Make sure this import is correct
@@ -28,11 +28,11 @@ const About = () => {
               <h1 className='h1'>About Me</h1>
             </header>
             <p>
-            Hey, I'm Anika! I'm passionate about Artificial Intelligence, Machine Learning, and Data Analytics. I love exploring new technologies, learning from data, and using insights to solve real-world problems.
+              Hey, I'm Anika! I'm passionate about Artificial Intelligence, Machine Learning, and Data Analytics. I love exploring new technologies, learning from data, and using insights to solve real-world problems.
             </p>
-            <br></br>
+            <br />
             <p>
-            When I'm not coding or analyzing data, you'll probably find me cooking up something delicious, strumming my guitar, or getting lost in a good book.
+              When I'm not coding or analyzing data, you'll probably find me cooking up something delicious, strumming my guitar, or getting lost in a good book.
             </p>
             <div className='mt-6'>
               <Link to={'/Portfolio'} className='btn'>View My Work</Link>
@@ -41,14 +41,18 @@ const About = () => {
 
           {/* image on mobile last */}
           <motion.div
-            className='flex-1 max-h-96 lg:max-h-max order-2 lg:order-1 overflow-hidden gap-2'
+            className='flex-1 order-2 lg:order-1 overflow-hidden gap-2'
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             exit={{ scale: 0 }}
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.05 }}  // Slightly increase size on hover
             transition={transition1}
           >
-            <img className='w-full h-auto' src={WomanImg} alt="A woman representing creativity and inspiration" />
+            <img
+              className='w-[70%] h-[70%] object-cover shadow-xl hover:shadow-2xl transition-shadow duration-300'
+              src={WomanImg}
+              alt="A woman representing creativity and inspiration"
+            />
           </motion.div>
         </div>
       </div>

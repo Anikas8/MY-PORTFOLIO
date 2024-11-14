@@ -1,5 +1,5 @@
 import React from 'react';
-import WomanImg from 'E:\\portfolio_AS-master\\portfolio_AS-master\\src\\img\\home\\untitled.jpg'; // Adjust this path if needed
+import WomanImg from 'src\\img\\home\\untitled.jpg'; // Adjust this path if needed
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
